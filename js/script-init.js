@@ -9,4 +9,9 @@ $(document).ready(function(){
 		$("#header-placeholder").append(data);
 	});
 	
+	var pathname = window.location.pathname; 
+	if(pathname=="/"){
+		$("#home_menu").addclass("selected_menu");
+	}
+	
 }); 

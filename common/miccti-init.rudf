@@ -9,7 +9,7 @@
 			<div id="topmenu" class="float-break">
 			
 				<ul id="miomcti_topmenu-firstlevel" class="topmenu">
-					<li id="home_menu" class="selected_menu">
+					<li id="home_menu">
 						<a href="/">Accueil </a>
 					</li>
 					
