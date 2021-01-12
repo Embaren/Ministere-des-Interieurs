@@ -146,6 +146,10 @@ body {
     color: #424242;
     background-color: #fff;
 }
+.topmenu .selected_menu div ul li a:hover{
+    color: #fff;
+    background-color: #318ce7;
+}
 #home_menu{
 	
 	border-left: 0;
