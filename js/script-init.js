@@ -9,12 +9,13 @@ $(document).ready(function(){
 		$("#header-placeholder").append(data);
 	});
 	
-	var pathname = window.location.pathname; 
-	console.log(pathname);
-	console.log(pathname=="/");
-	if(pathname=="/"){
-		console.log("Here");
-		$("#home_menu").addClass("selected_menu");
-	}
+	$("#scripts").append('\
+		var pathname = window.location.pathname;\
+		console.log(pathname);\
+		console.log(pathname=="/");\
+		if(pathname=="/"){\
+			console.log("Here");\
+			$("#home_menu").addClass("selected_menu");\
+		}');
 	
 }); 
