@@ -117,9 +117,6 @@
 									<a href="/Elections/Les-elections-dans-les-RUDF">Les élections dans les RUDF</a>
 								</li>
 								<li>
-									<a href="/Elections/">Actualités</a>
-								</li>
-								<li>
 									<a href="/Elections/Etre-candidat">Etre candidat</a>
 								</li>
 								<li>
@@ -135,5 +132,8 @@
 			var pathname = window.location.pathname;
 			if(pathname=="/"){
 				$("#home_menu").addClass("selected_menu");
+			}
+			else{
+				$("#parent_children_menu[href^='/"+pathname.split("/")[1]+"/']").parent().addClass("selected_menu");
 			}
 			</script>
