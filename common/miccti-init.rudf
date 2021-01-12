@@ -1,0 +1,133 @@
+			<div id="miccti_heade" class="float-break">
+				<a href="/" title="INTERIEURS.RUDF.EU">
+					<div class="logo_img">
+						<img class="rudf-header-logo" src="/ressources/mi_logo.png" alt="Logo du Ministère des Intérieurs" title="Ministère des Intérieurs" style="display: inline;">
+						<span id="site_url">INTERIEURS.RUDF.EU</span>
+					</div>
+				</a>
+			</div>
+			<div id="topmenu" class="float-break">
+			
+				<ul id="miomcti_topmenu-firstlevel" class="topmenu">
+					<li id="home_menu" class="selected_menu">
+						<a href="/">Accueil </a>
+					</li>
+					
+					<li id="menu_with_children">
+						<a id="parent_children_menu" href="/Actualites/L-actu-du-Ministere">Actualités</a>
+						<div class="menu_children">
+							<ul class="subtopmenu">
+								<li>
+									<a href="/Actualites/L-actu-du-Ministere">Toute l'actualité du Ministère</a>
+								</li>
+								<li>
+									<a href="/Actualites/Dossiers">Dossiers</a>
+								</li>
+								<li>
+									<a href="/Actualites/Infos-pratiques">Infos pratiques</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					
+					<li id="menu_with_children">
+						<a id="parent_children_menu" href="/Le-Ministre/Emile-BARBIER--RENARD">Le Ministre</a>
+						<div class="menu_children">
+							<ul class="subtopmenu">
+								<li>
+									<a href="/Le-Ministre/Emile-BARBIER--RENARD">Emile BARBIER--RENARD</a>
+								</li>
+								<li>
+									<a href="/Le-Ministre/Interventions-du-Ministre">Interventions du Ministre</a>
+								</li>
+								<li>
+									<a href="/Le-Ministre/Agenda-du-Ministre">Agenda du Ministre</a>
+								</li>
+								<li>
+									<a href="/Le-Ministre/Actualites">Actualités</a>
+								</li>
+								<li>
+									<a href="/Le-Ministre/Communiques-du-Ministre">Communiqués du Ministre</a>
+								</li>
+								<li>
+									<a href="/Le-Ministre/Dossiers-de-presse">Dossiers de presse</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					
+					<li id="menu_with_children">
+						<a id="parent_children_menu" href="/Le-Ministere/Le-Ministere">Le Ministère</a>
+						<div class="menu_children">
+							<ul class="subtopmenu">
+								<li>
+									<a href="/Le-Ministere/Organisation">Organisation</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Interventions-du-Ministre">Histoire</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Patrimoine">Patrimoine</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Déontologie">Déontologie</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Collectivites-territoriales">Collectivités territoiriales</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Gendarmerie-nationale">Gendarmerie nationale</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Immigration">Immigration</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Police-nationale">Police nationale</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/DGSI">DGSI</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Prefectures">Préfectures</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Securite-civile">Sécurité civile</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Secretariat-general">Secrétariat général</a>
+								</li>
+								<li>
+									<a href="/Le-Ministere/Securite-routiere">Sécurité routière</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					
+					<li id="menu_with_children">
+						<a id="parent_children_menu" href="/Elections/">Elections</a>
+						<div class="menu_children">
+							<ul class="subtopmenu">
+								<li>
+									<a href="/Elections-du-Maitre-du-Conseil/">Elections du Maître du Conseil</a>
+								</li>
+								<li>
+									<a href="/Elections-legislatives/">Elections législatives</a>
+								</li>
+								<li>
+									<a href="/Elections/Les-elections-dans-les-RUDF">Les élections dans les RUDF</a>
+								</li>
+								<li>
+									<a href="/Elections/">Actualités</a>
+								</li>
+								<li>
+									<a href="/Elections/Etre-candidat">Etre candidat</a>
+								</li>
+								<li>
+									<a href="/Elections/Les-referendums-d-initiative-presidentielle">Les référendums d'initiative présidentielle</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
