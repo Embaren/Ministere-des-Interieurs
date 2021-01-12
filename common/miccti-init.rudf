@@ -131,5 +131,12 @@
 					
 				</ul>
 			</div>
-			<div id="scripts">
-			</div>
+			<script>
+			var pathname = window.location.pathname;
+			console.log(pathname);
+			console.log(pathname=="/");
+			if(pathname=="/"){
+				console.log("Here");
+				$("#home_menu").addClass("selected_menu");
+			}
+			</script>
