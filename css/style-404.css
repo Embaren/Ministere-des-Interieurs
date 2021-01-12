@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'marianne-regular';
+    src: url('fonts/marianne-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#Maintenance{
+	text-align:center;
+    font-family: marianne-regular;
+	font:50px;
+    font-weight: bold;
+	padding:250px 0 300px 0;
+}
