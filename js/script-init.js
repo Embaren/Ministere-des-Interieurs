@@ -11,7 +11,7 @@ $(document).ready(function(){
 	
 	var pathname = window.location.pathname; 
 	if(pathname=="/"){
-		$("#home_menu").addclass("selected_menu");
+		$("#home_menu").addClass("selected_menu");
 	}
 	
 }); 
