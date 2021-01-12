@@ -10,7 +10,10 @@ $(document).ready(function(){
 	});
 	
 	var pathname = window.location.pathname; 
+	console.log(pathname);
+	console.log(pathname=="/");
 	if(pathname=="/"){
+		console.log("Here");
 		$("#home_menu").addClass("selected_menu");
 	}
 	
