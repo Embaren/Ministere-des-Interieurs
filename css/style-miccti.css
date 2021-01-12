@@ -204,7 +204,6 @@ body {
 	top:0;
     width: 100%;
     height: 100%;
-    border-radius: 0;
     color: #424242;
 	display:inline-block;
     padding: 0 10px 0 40px;
@@ -213,5 +212,6 @@ body {
 	background: url(../ressources/puce_sous_menu_grise.png) no-repeat 15px center;
 }
 .menu_children ul li a:hover{
+    border-radius: 0;
 	background: url(../ressources/puce_sous_menu_blanche.png) #318ce7 no-repeat 15px center;
 }
