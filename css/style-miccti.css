@@ -229,3 +229,16 @@ body {
 .menu_children ul li a:hover{
 	background: url(../ressources/puce_sous_menu_blanche.png) #318ce7 no-repeat 15px center;
 }
+
+#zone_banner {
+    text-align: center;
+    margin: 7px 0;
+}
+
+#content{
+    width: 760px;
+    padding-right: 25px;
+    float: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}

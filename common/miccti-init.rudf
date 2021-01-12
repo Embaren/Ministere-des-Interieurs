@@ -137,3 +137,8 @@
 				$("#parent_children_menu[href^='/"+pathname.split("/")[1]+"/']").parent().addClass("selected_menu");
 			}
 			</script>
+			<div id="banner_zone">
+				<a href="/Actualites/Dossiers/Grande-reforme-uniformologique">
+					<img src="/ressources/banner.png" width="960" height="100" style="border: 0px  ;" alt="Réforme uniformologique" title="Réforme uniformologique">
+				</a>
+			</div>
