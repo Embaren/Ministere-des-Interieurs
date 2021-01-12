@@ -19,6 +19,27 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul li {
+    text-align: left;
+    background: url(ressources/puce_sous_menu_grise.png) no-repeat left 4px;
+    padding-left: 10px;
+}
+
+div {
+    display: block;
+}
+
 body {
     font-size: 0.8em;
     position: relative;
@@ -40,9 +61,6 @@ body {
     visibility: hidden;
     display: block;
     clear: both;
-}
-div {
-    display: block;
 }
 
 a {
@@ -114,4 +132,64 @@ a {
     opacity: 25%;
     text-transform: none;
     font-size: 25px;
+}
+
+.Maintenance{
+	
+	padding-top:200px;
+	padding-bottom:350px;
+    font-size: 100px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+div#topmenu ul{
+    position: relative;
+    width: auto;
+    margin: 0 auto 0 auto;	
+}
+div#topmenu ul li {
+    background-image: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+}
+.miomcti_topmenu-design a {
+    text-decoration: none;
+    color: #686868;
+}
+ul#miomcti_topmenu-firstlevel {
+    width: 100%;
+    border-bottom: 5px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    height: 45px;
+    padding: 4px 0 0 10px;
+}
+ul#miomcti_topmenu-firstlevel li.firstli .menu_lvl1_div {
+    border-left: none;
+}
+ul#miomcti_topmenu-firstlevel li .menu_lvl1_div {
+    position: relative;
+    top: 10px;
+    border-left: 1px solid #d4d4d4;
+    height: 15px;
+    padding: 0 10px;
+}
+ul#miomcti_topmenu-firstlevel li.selected .menu_lvl1_div a, ul#miomcti_topmenu-firstlevel li:hover .menu_lvl1_div a {
+    color: #fff;
+    background-color: #424242;
+    border-radius: 5px;
+}
+ul#miomcti_topmenu-firstlevel li .menu_lvl1_div>a {
+    position: relative;
+    top: -10px;
+    padding: 5px 30px;
+    display: block;
+    line-height: 25px;
+    padding: 5px 10px;
+}
+.selected .lvl2_menu>a, .menu_lvl1_div .selected>a:link, .selected .menu_lvl1_div>a:visited {
+    color: #fff;
 }
