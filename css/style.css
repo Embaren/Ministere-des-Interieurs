@@ -1,0 +1,117 @@
+@font-face{
+	font-family:Marianne;
+	src: url("fonts/marianne-regular-webfont.otf") format("opentype");
+}
+@font-face{
+	font-family:Marianne;
+	font-weight: bold;
+	src: url("fonts/marianne-bold-webfont.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'marianne-regular';
+    src: url('fonts/marianne-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+body {
+    font-size: 0.8em;
+    position: relative;
+    background-color: #E8EAEE;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+    text-align: left;
+    color: #424242;
+    margin: 0;
+    padding: 0;
+}
+
+.float-break {
+    height: 1%;
+}
+.float-break:after {
+    content: "-";
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+div {
+    display: block;
+}
+
+a {
+    color: #424242;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+#page{
+    width: 1000px;
+    background-color: #fff;
+    padding-top: 10px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+.rudf-header{
+	
+    background-color: #FFFFFF;
+	
+} 
+
+#miomcti_header {
+    width: 960px;
+    margin: 0 0 0 20px;
+}
+
+#logo{
+    display: inline-block;
+	float:left;
+    bottom: 9px;
+    position: relative;
+    vertical-align: middle;
+    width: 555px;
+    margin: 0 0 -25px;
+    clear: left;
+}
+
+.rudf-header-logo {
+	width: 180px;
+    height: 126px;
+    margin: 30px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.logo_img{
+	float:left;
+    display: inline-block;
+}
+#logo_title {
+    position: static;
+    overflow: hidden;
+    bottom: 0;
+    top: 30px;
+    left: 95px;
+    font-size: 0px;
+    margin: 60px auto 0 auto;
+    text-align: left;
+}
+#site_url {
+	padding-top:60px;
+	position: absolute;
+    color: gray;
+    font-weight: bold;
+    font-family: marianne-regular;
+    opacity: 25%;
+    text-transform: none;
+    font-size: 25px;
+}
