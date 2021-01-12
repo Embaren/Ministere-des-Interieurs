@@ -9,7 +9,14 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 }
-
+h1 {
+    font-family: marianne-regular;
+    color: #424242;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 5px;
+}
 a {
     color: #424242;
     text-decoration: none;
