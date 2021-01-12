@@ -139,10 +139,12 @@ body {
 }
 
 .topmenu .selected_menu a{
-	
     color: #fff;
     background-color: #424242;
-	
+}
+.topmenu .selected_menu div ul li a{
+    color: #424242;
+    background-color: #fff;
 }
 #home_menu{
 	
