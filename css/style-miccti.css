@@ -156,6 +156,7 @@ body {
 
 .menu_children{
 	display:none;
+    color: #fff;
 }
 
 #menu_with_children:hover > #parent_children_menu{
