@@ -361,3 +361,11 @@ html {
     color: #fff;
 	background: url(../ressources/puce_sous_menu_blanche.png) no-repeat left center #318ce7;
 }
+
+div#footer{
+    text-align: left;
+	width:100%;
+	margin:30px 0;
+	clear:both;
+	padding-bottom:1em;
+}
