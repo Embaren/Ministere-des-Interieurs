@@ -312,6 +312,9 @@ html {
     margin-bottom: 20px;
 }
 
+#sidecolumn ul li{
+	background: url(../ressources/puce_sous_menu_grise.png) no-repeat left center;
+}
 
 #sidecolumn{
     width: 175px;
