@@ -13,7 +13,7 @@
 			if (window.location.pathname.split('/').slice(-2,-1)[0]==child.directory){
 				$("#sidenavlist").append('\
 					<li>\
-						<a href="../'+child.directory+'">'+child.page+' class="selectedsideitem"</a>\
+						<a href="../'+child.directory+'"  class="selectedsideitem">'+child.page+'</a>\
 					</li>\
 				')
 			}
