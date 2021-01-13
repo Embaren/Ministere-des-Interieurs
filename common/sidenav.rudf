@@ -5,7 +5,7 @@
 <script id="sidemenuscript">
 	const path=window.location.pathname.split('/');
 	
-	$.getJSON(path.slice(0,3).join("/")+"/children.json", function(json) {
+	$.getJSON(path.slice(0,2).join("/")+"/children.json", function(json) {
 		$("#sidenav").append('\
 			<h2>'+json[0]+'</h2>\
 			<hr>\
