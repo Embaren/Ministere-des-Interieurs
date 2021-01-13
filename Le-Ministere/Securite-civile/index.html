@@ -1,0 +1,22 @@
+<!doctype html>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<html lang="fr">
+<head>
+
+</head>
+
+<body>
+
+</body>
+</html>
+
+<script>
+		$.get("/common/base_head.rudf", function (data) {
+			$("head").append(data);
+		});
+		$.get("/common/base.rudf", function (data) {
+			$("body").append(data);
+		});
+</script>
