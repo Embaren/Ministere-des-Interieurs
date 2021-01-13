@@ -9,6 +9,10 @@ a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 0.5em;
+    font-weight: normal;
+}
 h1 {
     font-family: marianne-regular;
     color: #424242;
@@ -16,6 +20,10 @@ h1 {
     font-weight: bold;
     margin: 0;
     padding: 0 0 5px;
+}
+h2 {
+    font-size: 1.8em;
+    color: #355689;
 }
 a {
     color: #424242;
