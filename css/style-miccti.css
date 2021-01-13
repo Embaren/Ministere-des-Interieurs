@@ -260,7 +260,7 @@ body {
 #content{
 	background-color:inherit;
 }
-#content{
+#wrapper{
 	display:inline-block;
 }
 #maincolumn{
