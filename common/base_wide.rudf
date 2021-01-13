@@ -1,9 +1,4 @@
-<head>
-	<meta charset="utf-8">
-</head>
 
-<body>
-	
 	<div id="page">
 	
 		<div id="header-placeholder">
@@ -22,4 +17,3 @@
 		</div>
 		
 	</div>
-</body>
