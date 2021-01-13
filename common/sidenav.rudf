@@ -10,11 +10,20 @@
 			</ul>\
 		');
 		json[1].forEach(function(child){
-			$("#sidenavlist").append('\
-				<li>\
-					<a href="../'+child.directory+'">'+child.page+'</a>\
-				</li>\
-			')
+			if (window.location.pathname.split('/').slice(-2,-1)[0]==child.directory){
+				$("#sidenavlist").append('\
+					<li>\
+						<a href="../'+child.directory+'">'+child.page+' class="selectedsideitem"</a>\
+					</li>\
+				')
+			}
+			else{
+				$("#sidenavlist").append('\
+					<li>\
+						<a href="../'+child.directory+'">'+child.page+'</a>\
+					</li>\
+				')
+			}
 		});
 	});
 </script>
