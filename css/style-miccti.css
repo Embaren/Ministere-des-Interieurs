@@ -24,6 +24,7 @@ h1 {
 h2 {
     font-size: 1.8em;
     color: #355689;
+    font-weight: bold;
 }
 
 p {
@@ -271,4 +272,8 @@ body {
 
 .attribute-header{
     margin-bottom: 20px;
+}
+
+#content ul li{
+	background: url(../ressources/puce_sous_menu_grise.png) no-repeat left center;
 }
