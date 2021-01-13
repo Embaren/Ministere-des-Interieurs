@@ -3,7 +3,9 @@
 	</div>
 </div>
 <script id="sidemenuscript">
-	$.getJSON("../children.json", function(json) {
+	const path=window.location.pathname.split('/');
+	
+	$.getJSON(path.slice(0,3).join("/")+"/children.json", function(json) {
 		$("#sidenav").append('\
 			<h2>'+json[0]+'</h2>\
 			<hr>\
@@ -11,7 +13,7 @@
 			</ul>\
 		');
 		json[1].forEach(function(child){
-			if (window.location.pathname.split('/')[2]==child.directory){
+			if (path[2]==child.directory){
 				$("#sidenavlist").append('\
 					<li>\
 						<a href="../'+child.directory+'"  class="selectedsideitem">'+child.page+'</a>\
