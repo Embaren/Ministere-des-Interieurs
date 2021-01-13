@@ -4,7 +4,7 @@
 </div>
 <script id="sidemenuscript">
 	$.getJSON("../children.json", function(json) {
-		const category,children = JSON.parse(json);
+		const children = JSON.parse(json);
 		$("#sidenav").append('\
 			<h2>'+children[0]+'</h2>\
 			<ul id="sidenavlist">\
