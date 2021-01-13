@@ -285,14 +285,14 @@ html {
     padding-bottom: 1px;
     padding-left: 20px;
 }
-#maincolumn ul{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+#maincolumn ul li{
+    background: none;
+    list-style: url(/ressources/puce_sous_menu_grise.png) outside;
+    list-style-position: outside;
+    list-style-image: url(/ressources/puce_sous_menu_grise.png);
+    list-style-type: initial;
+    margin: 0 0 5px 30px;
+    padding-left: 0;
 }
 #maincolumn ::marker {
     unicode-bidi: isolate;
