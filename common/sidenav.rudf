@@ -6,6 +6,7 @@
 	$.getJSON("../children.json", function(json) {
 		$("#sidenav").append('\
 			<h2>'+json[0]+'</h2>\
+			<hr>
 			<ul id="sidenavlist">\
 			</ul>\
 		');
