@@ -317,7 +317,7 @@ body {
     font-size: 0.92em;
 }
 
-.selectedsideitem{
+a.selectedsideitem{
     color: #fff;
 	background: url(../ressources/puce_sous_menu_blanche.png) no-repeat left center #424242;
 }
