@@ -4,13 +4,12 @@
 </div>
 <script id="sidemenuscript">
 	$.getJSON("../children.json", function(json) {
-		const children = JSON.parse(json);
 		$("#sidenav").append('\
-			<h2>'+children[0]+'</h2>\
+			<h2>'+json[0]+'</h2>\
 			<ul id="sidenavlist">\
 			</ul>\
 		');
-		children[1].forEach(function(child){
+		json[1].forEach(function(child){
 			$("#sidenavlist").append('\
 				<li>\
 					<a href="../'+child.directory+'">'+child.page+'</a>\
