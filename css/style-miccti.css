@@ -251,10 +251,15 @@ body {
 
 #banner_zone {
     text-align: center;
-    margin: 7px 0;
+    margin: 7px 0 0 0;
+    padding: 0 0 7px 0;
 }
 
 #content{
+	background:inherit;
+}
+
+#maincolumn{
     width: 760px;
     padding-right: 25px;
     float: left;
