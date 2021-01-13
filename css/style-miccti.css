@@ -263,6 +263,9 @@ body {
 #wrapper{
 	display:inline-block;
 }
+#wrapper div{
+	display:block;
+}
 #maincolumn{
 	background-color:inherit;
     width: 760px;
