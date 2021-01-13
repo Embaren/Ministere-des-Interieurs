@@ -1,0 +1,30 @@
+<head>
+	<meta charset="utf-8">
+</head>
+
+<body>
+	
+	<div id="page">
+	
+		<div id="header-placeholder">
+			
+		</div>
+		<script src="/js/script-init.js"></script>
+		
+		<div id="content">
+			<div id="wrapper">
+				<div id="maincolumn">
+
+
+				</div>
+				<script src="content.js"></script>
+				<script>
+						$.get("/common/sidenav.rudf", function (data) {
+							$("#wrapper").append(data);
+						});
+				</script>
+			</div>
+		</div>
+		
+	</div>
+</body>
