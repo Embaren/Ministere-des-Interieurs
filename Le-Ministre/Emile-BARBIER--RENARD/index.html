@@ -76,6 +76,11 @@
 					</div>
 				</div>
 			</div>
+			<script>
+					$.get("/common/sidenav.rudf", function (data) {
+						$("#content").append(data);
+					});
+			</script>
 		</div>
 		
 	</div>

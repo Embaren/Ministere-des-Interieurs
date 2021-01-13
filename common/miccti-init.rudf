@@ -104,14 +104,14 @@
 					</li>
 					
 					<li id="menu_with_children">
-						<a id="parent_children_menu" href="/Elections/">Elections</a>
+						<a id="parent_children_menu" href="/Elections/Elections">Elections</a>
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
-									<a href="/Elections-du-Maitre-du-Conseil/">Elections du Maître du Conseil</a>
+									<a href="/Elections/Elections-du-Maitre-du-Conseil/">Elections du Maître du Conseil</a>
 								</li>
 								<li>
-									<a href="/Elections-legislatives/">Elections législatives</a>
+									<a href="/Elections/Elections-legislatives/">Elections législatives</a>
 								</li>
 								<li>
 									<a href="/Elections/Les-elections-dans-les-RUDF">Les élections dans les RUDF</a>
