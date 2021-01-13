@@ -285,6 +285,9 @@ html {
     padding-bottom: 1px;
     padding-left: 20px;
 }
+#maincolumn ul{
+	padding:0;
+}
 #maincolumn ul li{
     background: none;
     list-style: url(/ressources/puce_sous_menu_grise.png) outside;
