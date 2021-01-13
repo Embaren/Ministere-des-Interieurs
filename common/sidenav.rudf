@@ -11,7 +11,7 @@
 			</ul>\
 		');
 		json[1].forEach(function(child){
-			if (window.location.pathname.split('/').slice(-2,-1)[0]==child.directory){
+			if (window.location.pathname.split('/')[2]==child.directory){
 				$("#sidenavlist").append('\
 					<li>\
 						<a href="../'+child.directory+'"  class="selectedsideitem">'+child.page+'</a>\
