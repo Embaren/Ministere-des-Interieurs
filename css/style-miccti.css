@@ -321,3 +321,6 @@ body {
     color: white;
 	background: url(../ressources/puce_sous_menu_blanche.png) no-repeat left center #424242;
 }
+.selectedsideitem a{
+    color: white;
+}
