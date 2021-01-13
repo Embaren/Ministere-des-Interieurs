@@ -1,34 +1,13 @@
 <!doctype html>
 
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
 <html lang="fr">
 
-<head>
-	<meta charset="utf-8">
-
-	<title>Accueil | Ministère des Intérieurs</title>
-	
-	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-	
-
-</head>
-
-<body>
-	
-	<div id="page">
-		<div id="header-placeholder">
-			
-		</div>
-		<script src="/js/script-init.js"></script>
-		
-		<div id="content">
-			<div id="wrapper">
-				<div id="maincolumn">
-				
-				
-				</div>
-			</div>
-		</div>
-	</div>
-</body>
-
 </html>
+
+<script>
+		$.get("/common/base_wide.rudf", function (data) {
+			$("html").append(data);
+		});
+</script>
