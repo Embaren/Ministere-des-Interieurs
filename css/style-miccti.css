@@ -487,7 +487,10 @@ div#footer-external h2{
     vertical-align: top;
     text-transform: uppercase;
 }
-
+#footer-external ul li:first-child:before {
+    content: none;
+    margin: 0;
+}
 #footer-external ul li:before {
     content: "|";
     margin: 0 6px 0 3px;
