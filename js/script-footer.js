@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$.getJSON("/children.json", function(json) {
-		htmlbloc=[];
+		var htmlbloc=[];
 		json[1].forEach(function(child){
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
 				htmlbloc.append('\
