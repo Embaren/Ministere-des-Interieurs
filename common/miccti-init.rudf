@@ -135,9 +135,8 @@
 			
 			<script>
 			path = window.location.pathname.split("/");
-			path.pop();
 			for (i=1;i<path.length;i++){
-				subpath="/"+path.slice(0,i).join("/");
+				subpath=path.slice(0,i).join("/");
 				$.getJSON(subpath.concat("children.json"), function(json) {
 					$("#top-path-menu").append('\
 					<a href="'+subpath+'">'+json[0]+'</a>\
@@ -150,7 +149,7 @@
 						<span class="current-page">'+json[0]+'</span>');
 			});
 			
-			if(path.length<2){
+			if(path.length<3){
 				$("#home_menu").addClass("selected_menu");
 			}
 			else{
