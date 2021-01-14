@@ -128,13 +128,35 @@
 					
 				</ul>
 			</div>
+			
+			<div id="top-path-menu" class="smaller_text">
+				Vous êtes ici : 
+			</div>
+			
 			<script>
 			var pathname = window.location.pathname;
+			var path = pathname.split("");
+			var subpath;
+			path.pop();
+			for (i=1;i<path.length;i++){
+				subpath="/"+path.slice(0,i).join("/");
+				$.getJSON(subpath.concat("children.json"), function(json) {
+					$("#top-path-menu").append('\
+					<a href="'+subpath+'">'+json[0]+'</a>\
+					»');
+				});
+			};
+			
+			$.getJSON("children.json", function(json) {
+				$("#top-path-menu").append('\
+						<span class="current-page">'+json[0]+'</span>');
+			});
+			
 			if(pathname=="/"){
 				$("#home_menu").addClass("selected_menu");
 			}
 			else{
-				$("#parent_children_menu[href^='/"+pathname.split("/")[1]+"/']").parent().addClass("selected_menu");
+				$("#parent_children_menu[href^='/"+path[1]+"/']").parent().addClass("selected_menu");
 			}
 			</script>
 			<div id="banner_zone">
