@@ -36,7 +36,7 @@
 						else{
 							$("#sidenavlist").append('\
 								<li>\
-									<a href="'path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
+									<a href="'+path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
 								</li>\
 							');
 						}
