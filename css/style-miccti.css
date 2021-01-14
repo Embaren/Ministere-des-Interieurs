@@ -396,6 +396,23 @@ html {
     background: #fff;
     border-bottom: 1px solid #cacaca;
     width: 100%;
+	margin:0;
+}
+#subsidenavlist li a{
+    background: #fff url(/ressources/fleche_secondaire_grise_menu.png) 5px 5px no-repeat;
+    padding: 2px 5px 2px 20px;
+    color: #318ce7;
+    margin: 0 10px;
+    display: block;
+    font-weight: bold;
+}
+#subsidenavlist li a:hover{
+    background: url(/ressources/fleche_secondaire_bleue_menu.png) no-repeat scroll 5px 5px #EBEBEB;
+    display: block;
+}
+#subsidenavlist li a.selectedsideitem{
+    background: url(/ressources/fleche_secondaire_bleue_menu.png) no-repeat scroll 5px 5px #EBEBEB;
+    display: block;
 }
 #footer{
     text-align: left;
