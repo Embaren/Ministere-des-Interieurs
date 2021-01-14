@@ -458,15 +458,6 @@ html {
     padding: 20px 40px 30px 40px;
 }
 
-#footer-external{
-    text-transform: uppercase;
-    border-bottom: 1px solid #999;
-    font-size: 1.2em;
-    padding-bottom: 8px;
-    margin-top: 0;
-    margin-bottom: 3px;
-}
-
 div#footer-external h2{
     text-transform: uppercase;
     border-bottom: 1px solid #999;
