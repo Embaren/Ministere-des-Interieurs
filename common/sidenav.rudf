@@ -28,8 +28,6 @@
 						</ul>\
 						');
 						subjson[1].forEach(function(subchild){
-							console.log(path);
-							console.log(subchild.directory);
 							if(path.length>3 && path[3]==subchild.directory){
 								$("#subsidenavlist").append('\
 									<li>\
@@ -39,7 +37,7 @@
 								
 							}
 							else{
-								$("#sidenavlist").append('\
+								$("#subsidenavlist").append('\
 									<li>\
 										<a href="'+path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
 									</li>\
