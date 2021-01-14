@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var title;
 	var htmlbloc;
-	$.getJSON(/children.json", function(json) {
+	$.getJSON("/children.json", function(json) {
 		json[1].forEach(function(child){
 		htmlbloc='\
 			<div class="bloc-menu">\
