@@ -7,7 +7,9 @@
 	
 	$.getJSON(path.slice(0,2).join("/")+"/children.json", function(json) {
 		$("#sidenav").append('\
-			<h2>'+json[0]+'</h2>\
+			<a href="'+path.slice(0,2).join("/")+'">\
+				<h2>'+json[0]+'</h2>\
+			</a>\
 			<hr>\
 			<ul id="sidenavlist">\
 			</ul>\
