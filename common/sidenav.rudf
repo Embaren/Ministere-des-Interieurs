@@ -23,7 +23,7 @@
 						</ul>\
 					</li>\
 				');
-				$getJSON(path.slice(0,3).join("/")+"/children.json", function(subjson){
+				$.getJSON(path.slice(0,3).join("/")+"/children.json", function(subjson){
 					subjson[1].forEach(function(subchild){
 						if(path.length>3 && path[3]==subchild.directory){
 							$("#subsidenavlist").append('\
