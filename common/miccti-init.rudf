@@ -134,8 +134,7 @@
 			</div>
 			
 			<script>
-			var path = window.location.pathname.split("/");
-			var subpath;
+			path = window.location.pathname.split("/");
 			path.pop();
 			for (i=1;i<path.length;i++){
 				subpath="/"+path.slice(0,i).join("/");

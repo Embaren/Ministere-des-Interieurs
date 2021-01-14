@@ -1,6 +1,10 @@
 $(document).ready(function(){
-	$("head").append('\
-	<title>Sécurité civile | Ministère des Intérieurs</title>');
+	$.getJSON("children.json", function(json) {
+		
+		$("head").append('\
+	<title>'+json[0]+' | Ministère des Intérieurs</title>');
+		
+	});
 	
 	$.get("content.rudf", function (data) {
 		$("#maincolumn").append(data);
