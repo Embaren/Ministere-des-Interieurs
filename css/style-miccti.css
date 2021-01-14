@@ -270,6 +270,7 @@ html {
 
 #content{
 	background-color:inherit;
+    margin: 0 20px;
 }
 #wrapper{
 	display:inline-block;
