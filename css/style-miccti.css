@@ -5,10 +5,6 @@
     font-style: normal;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-}
 h1, h2, h3, h4, h5, h6 {
     margin: 20px 0 0.5em;
     font-weight: normal;
@@ -334,6 +330,10 @@ html {
     overflow: hidden;
 }
 
+.smaller_text {
+    font-size: 0.9em;
+}
+
 #sidenavlist{
     background: none;
     margin: 0;
@@ -369,11 +369,22 @@ html {
 	clear:both;
 	padding-bottom:1em;
 }
-
+#footer a {
+    text-decoration: none;
+}
 #footer-site{
 	padding: 20px 20px 30px 20px;
 	position: relative;
     background: rgb(244,245,246);
+}
+
+#footer-site h2, {
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 #footer-site-map{
@@ -382,7 +393,82 @@ html {
     width: 100%;
 }
 
+#footer-site-map h3 {
+    margin: 8px 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
 #footer-site-map .bloc-menu{
+    font-size: 0.9em;
     display: table-cell;
 	padding: 0 8px;
+}
+
+#footer-site-map .bloc-menu a{
+    display: table-cell;
+	padding: 0 8px;
+}
+
+#footer-site ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#footer-site ul li {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-site .footer-procedure{
+    border-top: 1px solid #999;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#footer-site .footer-procedure li:first-child{
+    margin-left: 0;
+}
+
+#footer-site .footer-procedure li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+#footer-external{
+    background: #d4d4d4;
+    padding: 20px 40px 30px 40px;
+}
+
+#footer-external{
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+#footer-external ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#footer-external ul li{
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+#footer-external ul li a{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#footer-menu a{
+    font-size: 0.9em;
+    color: #686868;
 }
