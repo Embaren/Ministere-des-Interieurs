@@ -9,7 +9,7 @@ $(document).ready(function(){
 					<a href="/'+child.directory+'">'+child.page+'</a>\
 				</h3>\
 				<ul>';
-			
+			console.log("/"+child.directory+"/children.json");
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
 				
 				category[1].forEach(function(page){
