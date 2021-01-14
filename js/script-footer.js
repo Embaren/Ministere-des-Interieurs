@@ -10,9 +10,9 @@ $(document).ready(function(){
 				</h3>\
 				<ul>';
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
-				console.log(category);
 				
 				category[1].forEach(function(page){
+					console.log(page);
 					htmlbloc=htmlbloc+'\
 					<li>\
 						<a href="/'+child.directory+"/"+page.directory+'">'+page.page+'</a>\
