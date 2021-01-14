@@ -512,7 +512,7 @@ div#footer-external h2{
     border-left: none;
 }
 
-#footer-menu li{
+#footer-menu ul li{
     border-left: 1px solid #D4D4D4;
     float: left;
     line-height: 8px;
