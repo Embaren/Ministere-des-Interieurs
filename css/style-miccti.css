@@ -451,6 +451,15 @@ html {
     margin-bottom: 3px;
 }
 
+#footer-external h2{
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
 #footer-external ul{
     padding: 0;
     margin: 0;
@@ -468,7 +477,24 @@ html {
     font-weight: bold;
 }
 
+#footer_menu {
+    color: #686868;
+}
+
 #footer-menu a{
     font-size: 0.9em;
     color: #686868;
+}
+
+#footer-menu li:first-child{
+    border-left: none;
+}
+
+#footer-menu li:first-child{
+    border-left: 1px solid #D4D4D4;
+    float: left;
+    line-height: 8px;
+    margin: 10px 0;
+    padding: 0 5px;
+    background: none;
 }
