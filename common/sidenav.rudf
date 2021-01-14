@@ -28,7 +28,8 @@
 						</ul>\
 						');
 						subjson[1].forEach(function(subchild){
-							console.log(path[3] + " / " + subchild.directory);
+							console.log(path[3]);
+							console.log(subchild.directory);
 							if(path.length>3 && path[3]==subchild.directory){
 								$("#subsidenavlist").append('\
 									<li>\
