@@ -27,24 +27,25 @@
 						<ul id="subsidenavlist">\
 						</ul>\
 						');
+						subjson[1].forEach(function(subchild){
+							console.log(path.length);
+							if(path.length>3 && path[3]==subchild.directory){
+								$("#subsidenavlist").append('\
+									<li>\
+										<a href="'+path.slice(0,4).join("/")+'"  class="selectedsideitem">'+subchild.page+'</a>\
+									</li>\
+								');
+								
+							}
+							else{
+								$("#sidenavlist").append('\
+									<li>\
+										<a href="'+path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
+									</li>\
+								');
+							}
+						});
 					}
-					subjson[1].forEach(function(subchild){
-						if(path.length>3 && path[3]==subchild.directory){
-							$("#subsidenavlist").append('\
-								<li>\
-									<a href="'+path.slice(0,4).join("/")+'"  class="selectedsideitem">'+subchild.page+'</a>\
-								</li>\
-							');
-							
-						}
-						else{
-							$("#sidenavlist").append('\
-								<li>\
-									<a href="'+path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
-								</li>\
-							');
-						}
-					});
 				});
 			}
 			else{
