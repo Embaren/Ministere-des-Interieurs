@@ -12,7 +12,6 @@ $(document).ready(function(){
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
 				
 				category[1].forEach(function(page){
-					console.log(page);
 					htmlbloc.push('\
 					<li>\
 						<a href="/'+child.directory+"/"+page.directory+'">'+page.page+'</a>\
@@ -20,6 +19,7 @@ $(document).ready(function(){
 				});
 				
 			});
+			console.log(htmlbloc);
 			
 			htmlbloc.push('\
 				</ul>\
