@@ -15,7 +15,7 @@ $(document).ready(function(){
 				category[1].forEach(function(page){
 					htmlbloc=htmlbloc+'\
 					<li>\
-						<a href="/'+child.directory+"/"page.directory+'">'+page.page+'</a>\
+						<a href="/'+child.directory+"/"+page.directory+'">'+page.page+'</a>\
 					</li>';
 				});
 				
