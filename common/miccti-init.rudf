@@ -134,20 +134,28 @@
 			</div>
 			
 			<script>
-			path = window.location.pathname.split("/");
-			for (i=1;i<path.length-1;i++){
-				subpath=path.slice(0,i).join("/");
-				$.getJSON(subpath.concat("/children.json"), function(json) {
-					$("#top-path-menu").append('\
-					<a href="'+subpath+'">'+json[0]+'</a>\
-					»');
-				});
-			};
 			
-			$.getJSON("children.json", function(json) {
-				$("#top-path-menu").append('\
-						<span class="current-page">'+json[0]+'</span>');
-			});
+			function toppathmenuconstruct(path,i){
+				if(i>=path.length-1){
+					$.getJSON("children.json", function(json) {
+						$("#top-path-menu").append('\
+								<span class="current-page">'+json[0]+'</span>');
+					});
+				}
+				else{
+					subpath=path.slice(0,i).join("/");
+					$.getJSON(subpath.concat("/children.json"), function(json) {
+						$("#top-path-menu").append('\
+						<a href="'+subpath+'">'+json[0]+'</a>\
+						»');
+						
+						toppathmenuconstruct(path,i+1);
+					});
+				}
+			}
+			
+			path = window.location.pathname.split("/");
+			toppathmenuconstruct(path,1);			
 			
 			if(path.length<3){
 				$("#home_menu").addClass("selected_menu");
