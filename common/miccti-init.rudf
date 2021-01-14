@@ -134,8 +134,7 @@
 			</div>
 			
 			<script>
-			var pathname = window.location.pathname;
-			var path = pathname.split("");
+			var path = window.location.pathname.split("/");
 			var subpath;
 			path.pop();
 			for (i=1;i<path.length;i++){
@@ -152,7 +151,7 @@
 						<span class="current-page">'+json[0]+'</span>');
 			});
 			
-			if(pathname=="/"){
+			if(path.length<2){
 				$("#home_menu").addClass("selected_menu");
 			}
 			else{
