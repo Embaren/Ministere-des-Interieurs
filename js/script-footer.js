@@ -12,7 +12,7 @@ $(document).ready(function(){
 			
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
 				
-				category[1].forEach(function(page)){
+				category[1].forEach(function(page){
 					htmlbloc=htmlbloc+'\
 					<li>\
 						<a href="/'+child.directory+"/"page.directory+'">'+page.page+'</a>\
