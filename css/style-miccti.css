@@ -391,7 +391,12 @@ html {
     color: #fff;
 	background: url(../ressources/puce_sous_menu_blanche.png) no-repeat left center #318ce7;
 }
-
+#subsidenavlist{
+    padding: 5px 0;
+    background: #fff;
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+}
 #footer{
     text-align: left;
 	width:100%;
