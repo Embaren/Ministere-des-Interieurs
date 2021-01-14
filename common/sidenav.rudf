@@ -15,19 +15,40 @@
 			</ul>\
 		');
 		json[1].forEach(function(child){
-			if (path[2]==child.directory){
+			if (path.length>2 && path[2]==child.directory){
 				$("#sidenavlist").append('\
 					<li>\
-						<a href="../'+child.directory+'"  class="selectedsideitem">'+child.page+'</a>\
+						<a href="'+path.slice(0,3).join("/")+'"  class="selectedsideitem">'+child.page+'</a>\
+						<ul id="subsidenavlist">\
+						</ul>\
 					</li>\
-				')
+				');
+				$getJSON(path.slice(0,3).join("/")+"/children.json", function(subjson){
+					subjson[1].forEach(function(subchild){
+						if(path.length>3 && path[3]==subchild.directory){
+							$("#subsidenavlist").append('\
+								<li>\
+									<a href="'+path.slice(0,4).join("/")+'"  class="selectedsideitem">'+subchild.page+'</a>\
+								</li>\
+							');
+							
+						}
+						else{
+							$("#sidenavlist").append('\
+								<li>\
+									<a href="'path.slice(0,3).join("/")+"/"+subchild.directory+'">'+subchild.page+'</a>\
+								</li>\
+							');
+						}
+					}
+				});
 			}
 			else{
 				$("#sidenavlist").append('\
 					<li>\
-						<a href="../'+child.directory+'">'+child.page+'</a>\
+						<a href="'path.slice(0,2).join("/")+"/"+child.directory+'">'+child.page+'</a>\
 					</li>\
-				')
+				');
 			}
 		});
 	});
