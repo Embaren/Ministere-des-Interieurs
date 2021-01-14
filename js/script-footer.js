@@ -1,14 +1,13 @@
-var htmlbloc=[];
 $(document).ready(function(){
 	$.getJSON("/children.json", function(json) {
 		json[1].forEach(function(child){
 			$.getJSON("/"+child.directory+"/children.json", function(category) {
-				htmlbloc.append('\
+				htmlbloc=['\
 			<div class="bloc-menu">\
 				<h3>\
 					<a href="/'+child.directory+'">'+child.page+'</a>\
 				</h3>\
-				<ul>');
+				<ul>'];
 				
 				category[1].forEach(function(page){
 					htmlbloc.push('\
@@ -20,10 +19,10 @@ $(document).ready(function(){
 				htmlbloc.push('\
 				</ul>\
 			</div>');
+				$("#footer-site-map").append(htmlbloc.join(''));
 			});
 
 		});
-		$("#footer-site-map").append(htmlbloc.join(''));
 	});
 
 }); 
