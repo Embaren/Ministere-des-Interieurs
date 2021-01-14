@@ -488,6 +488,11 @@ div#footer-external h2{
     text-transform: uppercase;
 }
 
+#footer-external ul li:before {
+    content: "|";
+    margin: 0 6px 0 3px;
+}
+
 #footer-external ul li a{
     font-size: 0.8em;
     font-weight: bold;
