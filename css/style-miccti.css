@@ -272,6 +272,12 @@ html {
 	background: url(../ressources/puce_sous_menu_blanche.png) #318ce7 no-repeat 15px center;
 }
 
+#top-path-menu{
+    margin: 10px 0 25px 20px;
+    overflow: auto;
+    width: 100%;
+}
+
 #banner_zone {
     text-align: center;
     margin: 7px 0 0 0;
