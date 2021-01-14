@@ -19,11 +19,15 @@
 				$("#sidenavlist").append('\
 					<li>\
 						<a href="'+path.slice(0,3).join("/")+'"  class="selectedsideitem">'+child.page+'</a>\
-						<ul id="subsidenavlist">\
-						</ul>\
 					</li>\
 				');
 				$.getJSON(path.slice(0,3).join("/")+"/children.json", function(subjson){
+					if(subjson[1].length>0){
+						$("#sidenavlist li a.selectedsideitem").after('\
+						<ul id="subsidenavlist">\
+						</ul>\
+						');
+					}
 					subjson[1].forEach(function(subchild){
 						if(path.length>3 && path[3]==subchild.directory){
 							$("#subsidenavlist").append('\
