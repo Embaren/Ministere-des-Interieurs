@@ -398,6 +398,11 @@ html {
     width: 100%;
 	margin:0;
 }
+#subsidenavlist li{
+    padding-left: 0;
+    margin: 0;
+    background: none;
+}
 #subsidenavlist li a{
     background: #fff url(/ressources/fleche_secondaire_grise_menu.png) 5px 5px no-repeat;
     padding: 2px 5px 2px 20px;
@@ -408,10 +413,12 @@ html {
 }
 #subsidenavlist li a:hover{
     background: url(/ressources/fleche_secondaire_bleue_menu.png) no-repeat scroll 5px 5px #EBEBEB;
+    color: #318ce7;
     display: block;
 }
 #subsidenavlist li a.selectedsideitem{
     background: url(/ressources/fleche_secondaire_bleue_menu.png) no-repeat scroll 5px 5px #EBEBEB;
+    color: #318ce7;
     display: block;
 }
 #footer{
