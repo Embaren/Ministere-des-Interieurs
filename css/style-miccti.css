@@ -496,6 +496,11 @@ div#footer-external h2{
     color: #686868;
 }
 
+#footer-menu ul{
+    color: #686868;
+	padding-inline-start:0;
+}
+
 #footer-menu a{
     font-size: 0.9em;
     color: #686868;
@@ -505,7 +510,7 @@ div#footer-external h2{
     border-left: none;
 }
 
-#footer-menu li:first-child{
+#footer-menu li{
     border-left: 1px solid #D4D4D4;
     float: left;
     line-height: 8px;
