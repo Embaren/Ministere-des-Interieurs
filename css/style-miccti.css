@@ -465,7 +465,7 @@ html {
     margin-bottom: 3px;
 }
 
-#footer-external h2{
+div#footer-external h2{
     text-transform: uppercase;
     border-bottom: 1px solid #999;
     font-size: 1.2em;
