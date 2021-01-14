@@ -435,11 +435,6 @@ html {
 	padding: 0 8px;
 }
 
-#footer-site-map .bloc-menu a{
-    display: table-cell;
-	padding: 0 8px;
-}
-
 #footer-site-map ul li:before {
     content: ">";
     display: inline-block;
