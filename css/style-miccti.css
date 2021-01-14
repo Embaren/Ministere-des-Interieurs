@@ -24,7 +24,7 @@ h1 {
 }
 h2 {
     font-size: 1.8em;
-    color: #355689;
+    color: #318ce7;
     font-weight: bold;
     font-family: Calibri, Arial, Helvetica, Verdana, sans-serif;
 }
@@ -276,6 +276,15 @@ html {
     margin: 10px 0 25px 20px;
     overflow: auto;
     width: 100%;
+}
+
+#top-path-menu a{
+    text-decoration: none;
+    color: #686868;
+}
+
+#top-path-menu .current-page {
+    color: #318ce7;
 }
 
 #banner_zone {
