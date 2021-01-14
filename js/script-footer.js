@@ -1,6 +1,6 @@
 function footerConstruct(toExplore) {
 	if(toExplore.length>0){
-		cat=toExplore.pop();
+		cat=toExplore.shift();
 		$.getJSON("/"+cat.directory+"/children.json", function(category) {
 			htmlbloc=['\
 		<div class="bloc-menu">\
