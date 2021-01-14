@@ -3,7 +3,7 @@
 	</div>
 </div>
 <script id="sidemenuscript">
-	const path=window.location.pathname.split('/');
+	path=window.location.pathname.split('/');
 	
 	$.getJSON(path.slice(0,2).join("/")+"/children.json", function(json) {
 		$("#sidenav").append('\
