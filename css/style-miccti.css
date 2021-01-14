@@ -509,6 +509,7 @@ div#footer-external h2{
 
 #footer-menu ul{
     color: #686868;
+	margin:0;
 }
 
 #footer-menu a{
