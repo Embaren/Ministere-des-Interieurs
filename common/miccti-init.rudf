@@ -57,7 +57,7 @@
 					</li>
 					
 					<li id="menu_with_children">
-						<a id="parent_children_menu" href="/Le-Ministere/Le-Ministere">Le Ministère</a>
+						<a id="parent_children_menu" href="/Le-Ministere">Le Ministère</a>
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
