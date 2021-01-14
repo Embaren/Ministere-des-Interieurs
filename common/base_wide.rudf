@@ -15,7 +15,14 @@
 				<script src="content.js"></script>
 			</div>
 			<div id="footer">
+
 			</div>
+			<script>
+				$.get("/common/footer.rudf", function (data) {
+					$("#footer").append(data);
+				});
+			</script>
+			<script src="/js/script-footer.js"></script>
 		</div>
 		
 	</div>

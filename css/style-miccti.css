@@ -369,3 +369,20 @@ div#footer{
 	clear:both;
 	padding-bottom:1em;
 }
+
+#footer-site{
+	padding: 20px 20px 30px 20px;
+	position: relative;
+    background: rgb(244,245,246);
+}
+
+#footer-site-map{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#footer-site-map .bloc-menu{
+    display: table-cell;
+	padding: 0 8px;
+}

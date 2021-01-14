@@ -1,2 +1,103 @@
-<div id="footer">
-</div>
+				<div id="wrapper-footer">
+					<div id="footer-site">
+						<h2>Plan du site</h2>
+						<div id="footer-site-map">
+						
+						
+						
+						</div>
+						<ul class="footer-procedure">
+							<li>
+								<a href="/A-votre-service/Ma-securite">Ma sécurité</a>
+							</li>
+							<li>
+								<a href="/A-votre-service/Le-Ministere-recrute">Le Ministère recrute</a>
+							</li>
+						</ul>
+					</div>
+					<div id="footer-external">
+						<h2>Nos sites</h2>
+						<ul>
+							<li>
+								<a href ="http://www.gendarmerie.interieurs.rudf.eu">GENDARMERIE</a>
+							</li>
+							<li>
+								<a href ="http://www.immigration.interieurs.rudf.eu">IMMIGRATION</a>
+							</li>
+							<li>
+								<a href ="http://www.gendarmerie.interieurs.rudf.eu">GENDARMERIE</a>
+							</li>
+							<li>
+								<a href ="http://www.interieurs.rudf.eu">INTERIEURS</a>
+							</li>
+							<li>
+								<a href ="http://www.interieurs.rudf.eu/Interstats">INTERSTATS</a>
+							</li>
+							<li>
+								<a href ="http://www.police-nationale.interieurs.rudf.eu">POLICE NATIONALE</a>
+							</li>
+							<li>
+								<a href ="http://www.prefecture-de-police.interieurs.rudf.eu">PREFECTURE DE POLICE DE PARIS</a>
+							</li>
+							<li>
+								<a href ="http://www.interieurs.rudf.eu/Le-Ministere/Prefectures">PREFECTURES</a>
+							</li>
+							<li>
+								<a href ="http://www.cipdr.interieurs.rudf.eu">PREVENTION DE LA DELINQUENCE</a>
+							</li>
+							<li>
+								<a href ="http://www.interieurs.rudf.eu/Le-Ministere/Securite-routiere">SECURITE ROUTIERE</a>
+							</li>
+							<li>
+								<a href ="http://www.interieurs.rudf.eu/Videoprotection">VIDEOPROTECTION</a>
+							</li>
+						</ul>
+						<h2 id="footer-useful-links">Les sites publics</h2>
+						<ul>
+							<li>
+								<a href="http://www.data.rudf.eu">DATA.RUDF.EU</a>
+							</li>
+							<li>
+								<a href="http://www.elysee.rudf.eu">ELYSEE.RUDF.EU</a>
+							</li>
+							<li>
+								<a href="http://www.rudf.eu">RUDF.EU</a>
+							</li>
+							<li>
+								<a href="http://www.gouvernement.rudf.eu">GOUVERNEMENT.RUDF.EU</a>
+							</li>
+							<li>
+								<a href="http://www.legirudf.rudf.eu">LEGIRUDF.RUDF.EU</a>
+							</li>
+							<li>
+								<a href="http://www.service-public.rudf.eu">SERVICE-PUBLIC.RUDF.EU</a>
+							</li>
+						</ul>
+					</div>
+					<div id="footer-menu">
+						<ul>
+							<li class="firstli">
+								<a href="/Infos-du-site/Nous-contacter">Nous contacter</a>
+							</li>
+							<li>
+								<a href="/Infos-du-site/Nous-suivre">Nous suivre</a>
+							</li>
+							<li>
+								<a href="/Archives">Archives</a>
+							</li>
+							<li>
+								<a href="/Espace-presse">Espace presse</a>
+							</li>
+							<li>
+								<a href="/Infos-du-site/Mentions-legales">Mentions légales</a>
+							</li>
+							<li>
+								<a href="/Infos-du-site/Politique-de-confidentialite">Politique de confidentialité</a>
+							</li>
+						</ul>
+					</div>
+					<adress>
+						Tous droits réservés © www.interieurs.rudf.eu 2021
+					</adress>
+					<br>
+				</div>
