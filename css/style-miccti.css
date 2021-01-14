@@ -378,7 +378,7 @@ html {
     text-decoration: none;
 }
 
-#footer address{
+div#footer address{
     font-style: normal;
     float: right;
     font-size: 0.8em;
@@ -397,7 +397,7 @@ html {
     background: rgb(244,245,246);
 }
 
-#footer-site h2, {
+#footer-site h2 {
     text-transform: uppercase;
     border-bottom: 1px solid #999;
     font-size: 1.2em;
