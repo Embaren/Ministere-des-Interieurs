@@ -135,7 +135,7 @@
 			
 			<script>
 			path = window.location.pathname.split("/");
-			for (i=0;i<path.length-1;i++){
+			for (i=1;i<path.length-1;i++){
 				subpath=path.slice(0,i).join("/");
 				$.getJSON(subpath.concat("/children.json"), function(json) {
 					$("#top-path-menu").append('\
