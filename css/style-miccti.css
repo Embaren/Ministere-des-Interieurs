@@ -362,7 +362,7 @@ html {
 	background: url(../ressources/puce_sous_menu_blanche.png) no-repeat left center #318ce7;
 }
 
-div#footer{
+#footer{
     text-align: left;
 	width:100%;
 	margin:30px 0;
