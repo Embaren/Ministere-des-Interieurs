@@ -356,7 +356,7 @@ html {
 .line-content-with-img {
     padding: 5px 10px 10px 10px;
 }
-#newsprev img{
+.newsprev img{
     width: 145px;
     height: 95px;
 }
