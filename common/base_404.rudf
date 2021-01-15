@@ -1,0 +1,22 @@
+
+	<div id="page">
+	
+		<div id="header-placeholder">
+			
+		</div>
+		<script src="/js/script-init.js"></script>
+		
+		<div class="Maintenance">SITE EN MAINTENANCE</div>\
+		
+		<div id="content">
+
+			</div>
+			<script>
+				$.get("/common/footer.rudf", function (data) {
+					$("#footer").append(data);
+				});
+			</script>
+			<script src="/js/script-footer.js"></script>
+		</div>
+		
+	</div>
