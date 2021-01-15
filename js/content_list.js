@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	console.log("Here");
 	$.getJSON("children.json", function(json) {
 		
 		$("head").append('\
