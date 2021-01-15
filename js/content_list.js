@@ -49,6 +49,6 @@ $(document).ready(function(){
 	<h1>'+json[0]+'</h1>\
 	<div class="content-view-children">\
 	</div>');
-		newsprevconstruct(json[1],5);
+		newsprevconstruct(json[1],1);
 	});
 }); 
