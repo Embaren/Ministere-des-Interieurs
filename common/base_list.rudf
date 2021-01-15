@@ -12,7 +12,17 @@
 
 
 				</div>
-				<script src="/js/content_list.js"></script>
+				<script>
+					$.getJSON("children.json", function(json) {
+						
+						$("head").append('\
+					<title>'+json[0]+' | Ministère des Intérieurs</title>');
+						
+						$("#maincolumn").append('\
+					<h1>'+json[0]+'</h1>');
+					});
+				
+				</script>
 				<script>
 						$.get("/common/sidenav.rudf", function (data) {
 							$("#wrapper").append(data);
