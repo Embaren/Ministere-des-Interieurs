@@ -360,6 +360,16 @@ html {
     width: 145px;
     height: 95px;
 }
+.newsprev {
+    margin-bottom: 20px;
+	border-bottom: 1px solid #ebebeb;
+    clear: left;
+}
+
+.newsprev:hover {
+    color: #fff;
+    background: #318ce7;
+}
 #sidecolumn ul li{
 	background: url(../ressources/puce_sous_menu_grise.png) no-repeat left center;
 }
