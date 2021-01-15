@@ -2,29 +2,29 @@ function newsprevconstruct(Articles,n){
 	if (n!=0 && Articles.length>0){
 		article=Articles.shift();
 		htmlbloc=['\
-		<div class="newsprev">'];
+		<div class="newsprev">\
+			<a href="' + article.directory + '" title="' + article.page + '">'];
 		if ("picture" in article){
 			htmlbloc.push('\
-			<div class="attribute-image">\
-				<img src="' + article.directory+'/'+article.picture + '" style alt="' + article.page + '" title="' + article.page + '">\
-			</div>');
+				<div class="attribute-image">\
+					<img src="' + article.directory+'/'+article.picture + '" style alt="' + article.page + '" title="' + article.page + '">\
+				</div>');
 		}
 		htmlbloc.push('\
-			<div class="line-content-with-img">');
+				<div class="line-content-with-img">');
 		
 		if ("date" in article){
 			htmlbloc.push('\
-				<div class="attribute-date">\
+					<div class="attribute-date">\
 					'+ article.date +'\
-				</div>');
+					</div>');
 		}
 		
 		htmlbloc.push('\
-				<h2>\
-					<a href="' + article.directory + '" title="' + article.page + '">'+ article.page +'</a>\
-				</h2>');
+					<h2>'+ article.page +'</h2>');
 		htmlbloc.push('\
-			</div>\
+				</div>\
+			</a>\
 		</div>');
 		$(".content-view-children").append(htmlbloc.join(''));
 		newsprevconstruct(Articles,n-1);
