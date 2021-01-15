@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	console.log("Here");
 	$.getJSON("children.json", function(json) {
+		console.log("There");
 		
 		$("head").append('\
 	<title>'+json[0]+' | Ministère des Intérieurs</title>');
