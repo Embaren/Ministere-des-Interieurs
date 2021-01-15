@@ -375,6 +375,11 @@ html {
     color: #fff;
     background: #318ce7;
 }
+
+.newsprev:hover > a {
+    color: #fff;
+}
+
 #sidecolumn ul li{
 	background: url(../ressources/puce_sous_menu_grise.png) no-repeat left center;
 }
