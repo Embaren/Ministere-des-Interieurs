@@ -376,7 +376,7 @@ html {
     background: #318ce7;
 }
 
-.newsprev:hover a {
+.newsprev:hover a, h2, p {
     color: #fff;
 }
 

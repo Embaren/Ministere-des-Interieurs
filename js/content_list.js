@@ -22,7 +22,16 @@ function newsprevconstruct(Articles,n){
 		
 		htmlbloc.push('\
 					<h2>'+ article.page +'</h2>');
+					
+		if ("summary" in article){
+			htmlbloc.push('\
+					<p>\
+					'+ article.summary +'\
+					<p>');
+		}
+		
 		htmlbloc.push('\
+					<hr>\
 				</div>\
 			</a>\
 		</div>');
