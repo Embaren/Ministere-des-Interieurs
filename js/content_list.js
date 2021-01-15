@@ -49,6 +49,13 @@ $(document).ready(function(){
 	<h1>'+json[0]+'</h1>\
 	<div class="content-view-children">\
 	</div>');
-		newsprevconstruct(json[1],10);
+		if(json[1].length<1){
+			$(".content-view-children").append('<div class="newsprev">\
+				<h2>Aucun contenu pour le moment</h2>\
+			</div>')
+		}
+		else{
+			newsprevconstruct(json[1],10);
+		}
 	});
 }); 
