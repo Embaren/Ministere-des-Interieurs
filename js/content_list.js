@@ -51,7 +51,7 @@ $(document).ready(function(){
 	</div>');
 		if(json[1].length<1){
 			$(".content-view-children").append('<div class="newsprev">\
-				<h2>Aucun contenu pour le moment</h2>\
+				<h2>Aucun contenu pour le moment.</h2>\
 			</div>')
 		}
 		else{
