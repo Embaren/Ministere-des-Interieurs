@@ -1,0 +1,33 @@
+
+	<div id="page">
+	
+		<div id="header-placeholder">
+			
+		</div>
+		<script src="/js/script-init.js"></script>
+		
+		<div id="content">
+			<div id="wrapper">
+				<div id="maincolumn">
+
+
+				</div>
+				<script src="/js/content_list.js"></script>
+				<script>
+						$.get("/common/sidenav.rudf", function (data) {
+							$("#wrapper").append(data);
+						});
+				</script>
+			</div>
+			<div id="footer">
+
+			</div>
+			<script>
+				$.get("/common/footer.rudf", function (data) {
+					$("#footer").append(data);
+				});
+			</script>
+			<script src="/js/script-footer.js"></script>
+		</div>
+		
+	</div>
