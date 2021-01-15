@@ -31,7 +31,6 @@ function newsprevconstruct(Articles,n){
 		}
 		
 		htmlbloc.push('\
-					<hr>\
 				</div>\
 			</a>\
 		</div>');
