@@ -337,10 +337,29 @@ html {
     margin: 0 0 5px 30px;
     padding-left: 0;
 }
-.attribute-header{
+
+.content-view-children {
     margin-bottom: 20px;
 }
 
+.attribute-header{
+    margin-bottom: 20px;
+}
+.attribute-image{
+    margin: 0 10px 1px 0;
+    float: left;
+}
+.attribute-date{
+    margin: 0 10px 1px 0;
+    float: left;
+}
+.line-content-with-img {
+    padding: 5px 10px 10px 10px;
+}
+#newsprev img{
+    width: 145px;
+    height: 95px;
+}
 #sidecolumn ul li{
 	background: url(../ressources/puce_sous_menu_grise.png) no-repeat left center;
 }
