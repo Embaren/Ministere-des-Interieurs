@@ -338,9 +338,12 @@ html {
     padding-left: 0;
 }
 
+#wrapper .content-view-children {
+    display: grid;
+}
+
 .content-view-children {
     margin-bottom: 20px;
-    display: grid;
 }
 
 .attribute-header{
