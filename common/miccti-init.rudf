@@ -14,43 +14,43 @@
 					</li>
 					
 					<li id="menu_with_children">
-						<a id="parent_children_menu" href="/Actualites/L-actu-du-Ministere">Actualités</a>
+						<a id="parent_children_menu" href="/Actualites/L-actu-du-Ministere/">Actualités</a>
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
-									<a href="/Actualites/L-actu-du-Ministere">Toute l'actualité du Ministère</a>
+									<a href="/Actualites/L-actu-du-Ministere/">Toute l'actualité du Ministère</a>
 								</li>
 								<li>
-									<a href="/Actualites/Dossiers">Dossiers</a>
+									<a href="/Actualites/Dossiers/">Dossiers</a>
 								</li>
 								<li>
-									<a href="/Actualites/Infos-pratiques">Infos pratiques</a>
+									<a href="/Actualites/Infos-pratiques/">Infos pratiques</a>
 								</li>
 							</ul>
 						</div>
 					</li>
 					
 					<li id="menu_with_children">
-						<a id="parent_children_menu" href="/Le-Ministre/Emile-BARBIER--RENARD">Le Ministre</a>
+						<a id="parent_children_menu" href="/Le-Ministre/Emile-BARBIER--RENARD/">Le Ministre</a>
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
-									<a href="/Le-Ministre/Emile-BARBIER--RENARD">Emile BARBIER--RENARD</a>
+									<a href="/Le-Ministre/Emile-BARBIER--RENARD/">Emile BARBIER--RENARD</a>
 								</li>
 								<li>
-									<a href="/Le-Ministre/Interventions-du-Ministre">Interventions du Ministre</a>
+									<a href="/Le-Ministre/Interventions-du-Ministre/">Interventions du Ministre</a>
 								</li>
 								<li>
-									<a href="/Le-Ministre/Agenda-du-Ministre">Agenda du Ministre</a>
+									<a href="/Le-Ministre/Agenda-du-Ministre/">Agenda du Ministre</a>
 								</li>
 								<li>
-									<a href="/Le-Ministre/Actualites">Actualités</a>
+									<a href="/Le-Ministre/Actualites/">Actualités</a>
 								</li>
 								<li>
-									<a href="/Le-Ministre/Communiques-du-Ministre">Communiqués du Ministre</a>
+									<a href="/Le-Ministre/Communiques-du-Ministre/">Communiqués du Ministre</a>
 								</li>
 								<li>
-									<a href="/Le-Ministre/Dossiers-de-presse">Dossiers de presse</a>
+									<a href="/Le-Ministre/Dossiers-de-presse/">Dossiers de presse</a>
 								</li>
 							</ul>
 						</div>
@@ -61,50 +61,50 @@
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
-									<a href="/Le-Ministere/Organisation">Organisation</a>
+									<a href="/Le-Ministere/Organisation/">Organisation</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Interventions-du-Ministre">Histoire</a>
+									<a href="/Le-Ministere/Interventions-du-Ministre/">Histoire</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Patrimoine">Patrimoine</a>
+									<a href="/Le-Ministere/Patrimoine/">Patrimoine</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Déontologie">Déontologie</a>
+									<a href="/Le-Ministere/Déontologie/">Déontologie</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Collectivites-territoriales">Collectivités territoiriales</a>
+									<a href="/Le-Ministere/Collectivites-territoriales/">Collectivités territoiriales</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Gendarmerie-nationale">Gendarmerie nationale</a>
+									<a href="/Le-Ministere/Gendarmerie-nationale/">Gendarmerie nationale</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Immigration">Immigration</a>
+									<a href="/Le-Ministere/Immigration/">Immigration</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Police-nationale">Police nationale</a>
+									<a href="/Le-Ministere/Police-nationale/">Police nationale</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/DGSI">DGSI</a>
+									<a href="/Le-Ministere/DGSI/">DGSI</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Prefectures">Préfectures</a>
+									<a href="/Le-Ministere/Prefectures/">Préfectures</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Securite-civile">Sécurité civile</a>
+									<a href="/Le-Ministere/Securite-civile/">Sécurité civile</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Secretariat-general">Secrétariat général</a>
+									<a href="/Le-Ministere/Secretariat-general/">Secrétariat général</a>
 								</li>
 								<li>
-									<a href="/Le-Ministere/Securite-routiere">Sécurité routière</a>
+									<a href="/Le-Ministere/Securite-routiere/">Sécurité routière</a>
 								</li>
 							</ul>
 						</div>
 					</li>
 					
 					<li id="menu_with_children">
-						<a id="parent_children_menu" href="/Elections/Elections">Elections</a>
+						<a id="parent_children_menu" href="/Elections/">Elections</a>
 						<div class="menu_children">
 							<ul class="subtopmenu">
 								<li>
@@ -114,13 +114,13 @@
 									<a href="/Elections/Elections-legislatives/">Elections législatives</a>
 								</li>
 								<li>
-									<a href="/Elections/Les-elections-dans-les-RUDF">Les élections dans les RUDF</a>
+									<a href="/Elections/Les-elections-dans-les-RUDF/">Les élections dans les RUDF</a>
 								</li>
 								<li>
-									<a href="/Elections/Etre-candidat">Etre candidat</a>
+									<a href="/Elections/Etre-candidat/">Etre candidat</a>
 								</li>
 								<li>
-									<a href="/Elections/Les-referendums-d-initiative-presidentielle">Les référendums d'initiative présidentielle</a>
+									<a href="/Elections/Les-referendums-d-initiative-presidentielle/">Les référendums d'initiative présidentielle</a>
 								</li>
 							</ul>
 						</div>
