@@ -26,12 +26,14 @@
 							
 							<h2>Où postuler ?</h2>
 							
-							<p>
-								Pour plus d'informations sur les offres d'emploi dans la Police Nationale, consulter la page de recrutement du Ministère consacrée à la <a href="/Le-Ministere-recrute/Police-Nationale/"><b>Police Nationale</b></a>.
-							</p>
-							<p>
-								Pour se renseigner sur les candidatures auprès de la Gendarmerie Nationale, visiter la section dédiée au recrutement de la <a href="/Le-Ministere-recrute/Gendarmerie-Nationale/"><b>Gendarmerie Nationale</b></a>.
-							</p>
+							<ul>
+								<li>
+									Pour plus d'informations sur les offres d'emploi dans la Police Nationale, consulter la page de recrutement du Ministère consacrée à la <a href="/Le-Ministere-recrute/Police-Nationale/"><b>Police Nationale</b></a>.
+								</li>
+								<li>
+									Pour se renseigner sur les candidatures auprès de la Gendarmerie Nationale, visiter la section dédiée au recrutement de la <a href="/Le-Ministere-recrute/Gendarmerie-Nationale/"><b>Gendarmerie Nationale</b></a>.
+								</li>
+							</ul>
 							
 						</div>
 					</div>
